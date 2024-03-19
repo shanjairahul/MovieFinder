@@ -4,7 +4,7 @@ import React from 'react';
 import searchIcon from './search.svg';
 import MovieList from './MovieList';
 
-const API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
+const API_URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const App = ()=>{
 
